@@ -1,0 +1,58 @@
+* {margin: 0; padding: 0;}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60px auto;
+
+}
+
+.content {
+    padding: 24px;
+    background-color: white;
+}
+.content h1 {
+    color: #7b8c93;
+    margin-bottom: 24px;
+    font-weight: 400; /* normal */
+}
+
+.select {
+    max-width: 200px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.select > label {
+    color: #7b8c93;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.select > select {
+    background-color: #cfd8db;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    xtransform: skewX(-16deg);
+    /* appearance: none; */
+}
+
+.select > select option {
+    width:100px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+
+
+select, button, input {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

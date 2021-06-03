@@ -1,0 +1,30 @@
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e0dfdd;
+}
+
+.side-nav ul,
+.side-nav li {
+    list-style-type: none;
+}
+
+.side-nav li, a {
+    width: 64px;
+    height:64px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1d0d0;
+    cursor: pointer;
+}
+.side-nav a:active {
+    color: black;
+    background-color: #b2b2b5;
+}
+.side-nav li > a > svg {
+    width: 32px;
+    height: 32px;
+}
